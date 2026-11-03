@@ -129,6 +129,7 @@ const xpcomFilesLocal = [
 	'router',
 	'schema',
 	'searchQuery',
+	'semanticSearch',
 	'server/server',
 	'server/server_integration',
 	'server/server_connector',

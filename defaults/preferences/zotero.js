@@ -108,6 +108,8 @@ pref("extensions.zotero.keys.toggleRead", "`");
 pref("extensions.zotero.keys.showTabsMenu", ";");
 
 pref("extensions.zotero.search.quicksearch-mode", "fields");
+// Index item metadata for Zotero.SemanticSearch (experimental, no UI yet)
+pref("extensions.zotero.search.semantic.enabled", false);
 
 // Fulltext indexing
 pref("extensions.zotero.fulltext.textMaxLength", 500000);

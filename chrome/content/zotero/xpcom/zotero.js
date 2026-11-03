@@ -726,6 +726,7 @@ const { CommandLineOptions } = ChromeUtils.importESModule("chrome://zotero/conte
 			}
 			
 			await Zotero.Fulltext.init();
+			await Zotero.SemanticSearch.init();
 			
 			Zotero.Notifier.registerObserver(Zotero.Tags, 'setting', 'tags');
 			
